@@ -34,14 +34,14 @@ $social-colors: ( twitter: #1da1f2, facebook: #3b579d, google: #dc4a38, linkedin
 $type-1: 'Poppins',
 sans-serif;
 $type-2: $type-1;
-$default-font-size: 12px;
+$default-font-size: 0.75rem;
 $text-muted: #c2c2c2;
 $body-color: #212529;
 ////////// FONT VARIABLES //////////
 ////////// SIDEBAR ////////
-$sidebar-width-lg: 255px;
-$sidebar-width-mini: 185px;
-$sidebar-width-icon: 70px;
+$sidebar-width-lg: 15.938rem;
+$sidebar-width-mini: 11.563rem;
+$sidebar-width-icon: 4.375rem;
 $sidebar-light-bg: $white;
 $sidebar-light-menu-color: #4a4a4a;
 $sidebar-light-menu-active-bg: #fafbfc;
@@ -68,10 +68,10 @@ $sidebar-dark-category-color: #999999;
 $sidebar-dark-menu-icon-color: #404852;
 $sidebar-dark-profile-name-color: #404852;
 $sidebar-dark-profile-title-color: #8d9498;
-$sidebar-menu-font-size: 12px;
-$sidebar-icon-size: 16px;
-$sidebar-menu-padding: 16px 35px;
-$nav-link-height: 52px;
+$sidebar-menu-font-size: 0.75rem;
+$sidebar-icon-size: 1rem;
+$sidebar-menu-padding: 1rem 2.188rem;
+$nav-link-height: 3.25rem;
 $sidebar-submenu-padding: 0 0 0 4rem;
 $sidebar-submenu-font-size: $sidebar-menu-font-size;
 $sidebar-submenu-item-padding: .75rem 1rem;
@@ -82,16 +82,16 @@ $sidebar-profile-padding: 0rem 1.625rem 2.25rem 1.188rem;
 $sidebar-mini-menu-padding: .8125rem 1rem .8125rem 1rem;
 $sidebar-icon-only-menu-padding: .5rem 1.625rem .5rem 1.188rem;
 $sidebar-icon-only-submenu-padding: 0 0 0 1.5rem;
-$sidebar-icon-only-submenu-width: 200px;
+$sidebar-icon-only-submenu-width: 12.5rem;
 $rtl-sidebar-submenu-padding: 0 3.45rem 0 0;
 ///////// SIDEBAR ////////
 ///////// SETTINGS PANEL ////////
-$settings-panel-width: 300px;
+$settings-panel-width: 18.75rem;
 ///////// HORIZONTAL MENU /////////
-$horizontal-navbar-height: 135px;
+$horizontal-navbar-height: 8.438rem;
 $horizontal-top-menu-bg: $white;
 $horizontal-menu-padding: 0 1rem;
-$horizontal-menu-height: 57px;
+$horizontal-menu-height: 3.563rem;
 $horizontal-bottom-menu-item-bg: $sidebar-light-menu-active-bg;
 $horizontal-menu-item-color: #202339;
 $horizontal-menu-submenu-color: $horizontal-menu-item-color;
@@ -101,20 +101,20 @@ $horizontal-menu-icon-font-size: .9375rem;
 $horizontal-menu-submenu-item-padding: .85rem 0;
 ///////// HORIZONTAL MENU /////////
 ///////// HORIZONTAL MENU 2/////////
-$horizontal-2-navbar-height: 88px;
-$horizontal-2-navbar-bottom-height:50px;
+$horizontal-2-navbar-height: 5.5rem;
+$horizontal-2-navbar-bottom-height:3.125rem;
 $horizontal-2-menu-item-color: $white;
 $horizontal-2-bg: $blue-teal-gradient;
-$horizontal-2-brand-width: 125px;
+$horizontal-2-brand-width: 7.813rem;
 ///////// HORIZONTAL MENU 2/////////
 ///////// NAVBAR ////////
-$navbar-height: 63px;
+$navbar-height: 3.938rem;
 $navbar-light-color: #202339;
 $navbar-font-size: $sidebar-menu-font-size;
 $navbar-icon-font-size: 1.25rem;
 ///////// NAVBAR ////////
 ///////// BUTTONS ////////
-$button-fixed-width: 120px;
+$button-fixed-width: 7.5rem;
 $btn-padding-y: 0.56rem;
 $btn-padding-x: 1.375rem;
 $btn-line-height: 1;
@@ -132,12 +132,12 @@ $btn-border-radius: .1875rem;
 $btn-border-radius-xs: .1875rem;
 $btn-border-radius-sm: .1875rem;
 $btn-border-radius-lg: .1875rem;
-$social-btn-padding: 13px;
+$social-btn-padding: 0.813rem;
 $social-btn-icon-size: 1rem;
 ///////// BUTTONS ////////
 /////////  FORMS /////////
 $input-bg: color(white);
-$input-border-radius: 2px;
+$input-border-radius: 0.125rem;
 $input-placeholder-color: #c9c8c8;
 $input-font-size: .75rem;
 $input-padding-y: .56rem;
@@ -159,18 +159,18 @@ $dropdown-header-color: $body-color;
 //////// TABLES ////////
 $table-accent-bg: $content-bg;
 $table-hover-bg: $content-bg;
-$table-cell-padding: 18px 30px;
+$table-cell-padding: 1.125rem 1.875rem;
 $table-border-color: $border-color;
 $table-inverse-bg: #2a2b32;
 $table-inverse-color: color(white);
 //////// TABLES ////////
 ////////// MEASUREMENT AND PROPERTY VARIABLES //////////
-$boxed-container-width: 1200px;
-$border-property: 1px solid $border-color;
+$boxed-container-width: 75rem;
+$border-property: 0.063rem solid $border-color;
 $card-spacing-y: 1.875rem;
 $card-padding-y: 1.88rem;
 $card-padding-x: 1.81rem;
-$grid-gutter-width: 25px;
+$grid-gutter-width: 1.563rem;
 $action-transition-duration: 0.25s;
 $action-transition-timing-function: ease;
 ////////// OTHER VARIABLES //////////
@@ -190,18 +190,18 @@ $breadcrumb-divider: "/";
 $breadcrumb-custom-padding-y: 0;
 $breadcrumb-custom-padding-x: 0;
 $breadcrumb-custom-item-padding-y: 0.56rem;
-$breadcrumb-custom-item-padding-x: 10px;
+$breadcrumb-custom-item-padding-x: 0.625rem;
 $breadcrumb-custom-item-color: $black;
 $breadcrumb-item-bg: #dbe3e6;
 ////////// BREAD CRUMBS VARIABLES //////////
 ////////// MODALS VARIABLES //////////
-$modal-inner-padding: 15px;
-$modal-dialog-margin: 10px;
-$modal-dialog-margin-y-sm-up: 30px;
+$modal-inner-padding: 0.938rem;
+$modal-dialog-margin: 0.625rem;
+$modal-dialog-margin-y-sm-up: 1.875rem;
 $modal-title-line-height: $line-height-base;
 $modal-content-bg: $content-bg;
-$modal-content-box-shadow-xs: 0 3px 9px rgba($black, .5);
-$modal-content-box-shadow-sm-up: 0 5px 15px rgba($black, .5);
+$modal-content-box-shadow-xs: 0 0.188rem 0.563rem rgba($black, .5);
+$modal-content-box-shadow-sm-up: 0 0.313rem 0.938rem rgba($black, .5);
 $modal-backdrop-bg: $black;
 $modal-backdrop-opacity: .5;
 $modal-header-border-color: $border-color;
@@ -210,15 +210,15 @@ $modal-footer-border-color: $border-color;
 $modal-header-border-width: $border-width;
 $modal-content-border-width: $border-width;
 $modal-footer-border-width: $border-width;
-$modal-header-padding-x: 26px;
-$modal-header-padding-y: 25px;
-$modal-body-padding-x: 26px;
-$modal-body-padding-y: 35px;
-$modal-footer-padding-x: 31px;
-$modal-footer-padding-y: 15px;
+$modal-header-padding-x: 1.625rem;
+$modal-header-padding-y: 1.563rem;
+$modal-body-padding-x: 1.625rem;
+$modal-body-padding-y: 2.188rem;
+$modal-footer-padding-x: 1.938rem;
+$modal-footer-padding-y: 1.563rem;
 $modal-lg: 90%;
-$modal-md: 500px;
-$modal-sm: 300px;
+$modal-md: 31.25rem;
+$modal-sm: 18.75rem;
 $modal-transition: transform .4s ease;
 ////////// MODALS VARIABLES //////////
 ////////// TOOLTIP VARIABLES //////////
